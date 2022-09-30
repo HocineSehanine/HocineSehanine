@@ -38,7 +38,7 @@
 <br /> 
 
 - 📫 How to reach me:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hocine-sehanine-447419143/l/)](https://www.linkedin.com/in/hocine-sehanine-447419143//) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rubalagrawalru@gmail.com.com)](mailto:hocinesehanine1@gmail.com)&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hocine-sehanine-447419143/l/)](https://www.linkedin.com/in/hocine-sehanine-447419143/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rubalagrawalru@gmail.com.com)](mailto:hocinesehanine1@gmail.com)&nbsp;&nbsp;
 
 *************
 
