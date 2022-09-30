@@ -30,10 +30,6 @@
 
 </p>
 
-
-**I am Into ,**
-
-**Web, 3D, Ml & IOT**
 <br />
 
 
