@@ -26,6 +26,11 @@
   <img src="https://cdn-icons-png.flaticon.com/512/3161/3161158.png" width="60px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50px"/>
+  <img src="https://www.svgrepo.com/show/373697/java.svg" width="50px"/>
+  <img src="https://www.svgrepo.com/show/330758/junit5.svg" width="50px"/>
+  <img src="https://www.svgrepo.com/show/353935/jira.svg" width="50px"/>
+  <img src="https://www.svgrepo.com/show/440726/drawer-qa.svg" width="50px"/>
+  <img src="https://www.svgrepo.com/show/331488/mongodb.svg" width="50px"/>
 
 </p>
 
