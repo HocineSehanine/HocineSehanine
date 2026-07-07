@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-cards
     permissions:
-      contents: write # Esta é a linha que resolve o erro 128!
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
