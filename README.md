@@ -37,7 +37,7 @@
 <br />
 
 
-![Hocine Sehanine Github Stats](./profile-summary-cards/profile-details.svg)
+![Hocine Sehanine Github Stats](profile-summary-card-output/tokyonight/0-profile-details.svg)
 
 <br /> 
 
