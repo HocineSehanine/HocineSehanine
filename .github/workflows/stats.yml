@@ -9,11 +9,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-cards
+    permissions:
+      contents: write # Garante permissão de gravação no repositório
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.STATS_TOKEN }} # Configura o Git local com o seu Token
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          THEME: tokyonight
