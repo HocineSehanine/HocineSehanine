@@ -37,7 +37,7 @@
 <br />
 
 
-![Hocine Sehanine Github Stats](https://github-readme-stats.vercel.app/api?username=HocineSehanine&show_icons=true&theme=tokyonight)
+![Hocine Sehanine Github Stats](https://github-readme-stats.vercel.app/api?username=HocineSehanine&show_icons=true&theme=tokyonight&cache_seconds=86400)
 
 <br /> 
 
