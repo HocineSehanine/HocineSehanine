@@ -12,7 +12,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-cards
 
     steps:
       - name: Checkout repository
@@ -23,13 +22,15 @@ jobs:
 
       - name: Diagnose Git push permissions
         run: |
-          echo "Branch atual:"
+          echo "=== Branch ==="
           git branch --show-current
-          echo "Remote configurado:"
+
+          echo "=== Remote ==="
           git remote -v
-          echo "Testando permissões de push..."
+
+          echo "=== Push test ==="
           git push --dry-run origin HEAD
-          
+
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
