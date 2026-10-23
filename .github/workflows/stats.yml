@@ -17,9 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: HocineSehanine/HocineSehanine
           token: ${{ github.token }}
-          persist-credentials: true
 
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
