@@ -15,17 +15,21 @@ jobs:
     name: generate-github-cards
 
     steps:
-      - name: Diagnose Git push permissions
-        run: |
-          git status --short
-          git push --dry-run origin HEAD
-      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.STATS_TOKEN }}
           persist-credentials: true
 
+      - name: Diagnose Git push permissions
+        run: |
+          echo "Branch atual:"
+          git branch --show-current
+          echo "Remote configurado:"
+          git remote -v
+          echo "Testando permissões de push..."
+          git push --dry-run origin HEAD
+          
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
