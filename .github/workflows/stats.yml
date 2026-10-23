@@ -20,17 +20,6 @@ jobs:
           token: ${{ secrets.STATS_TOKEN }}
           persist-credentials: true
 
-      - name: Diagnose Git push permissions
-        run: |
-          echo "=== Branch ==="
-          git branch --show-current
-
-          echo "=== Remote ==="
-          git remote -v
-
-          echo "=== Push test ==="
-          git push --dry-run origin HEAD
-
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
