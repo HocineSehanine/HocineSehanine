@@ -1,21 +1,29 @@
-name: Test Checkout
+
+name: Generate GitHub Stats Cards
 
 on:
+  schedule:
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
+    name: generate-github-cards
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.STATS_TOKEN }}
+          persist-credentials: true
 
-      - name: Verify checkout
-        run: |
-          git status
-          git log -1 --oneline
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+        with:
+          USERNAME: HocineSehanine
